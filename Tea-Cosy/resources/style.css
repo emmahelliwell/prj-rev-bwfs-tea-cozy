@@ -1,0 +1,160 @@
+body {
+  background-color: black;
+  text-align: center;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  width: 100%;
+}
+
+/*header*/
+
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color: black;
+  opacity: 0.9;
+  z-index: 10;
+}
+#logo {
+  height: 50px;
+  padding: 10px;
+  float: left;
+}
+.navbar {
+  display: inline-flex;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+.navbar a {
+  text-decoration: underline;
+  color: white;
+  width: 150px;
+  display: inline;
+}
+.navbar span {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+/*main*/
+
+main {
+ position: relative;
+ top: 70px;
+}
+h2 {
+  padding: 10px 10px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*mission*/
+
+.hero {
+  background-image: url("./images/img-mission-background.jpg");
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#Mission {
+  background-color: black;
+  width: 1200px;
+  float: center;
+  margin: auto 0;
+  position: absolute;
+  top: 250px;;
+}
+
+/*featured*/
+
+#featured {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.tea-type {
+  padding: 5px;
+}
+
+.tea-type img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.tea-type span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*locations*/
+
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 5px;
+  margin: 0px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  line-height: 1.1rem;
+}
+#locations .{
+  margin: auto;
+  width: 1200px;
+}
+#locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url("./images/img-locations-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+}
+
+/*footer*/
+
+footer {
+  position: relative;
+  top: 150px;
+  text-align: left;
+  height: 20px;
+  width: 100%;
+}
+.contact {
+  height: 200px;
+  position: relative;
+  text-align: center;
+  top: 70px;
+}
+#copyright {
+  text-align: left;
+  padding-left: 20px;
+}
